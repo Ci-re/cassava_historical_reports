@@ -11,6 +11,10 @@
   overflow: hidden;
 }
 
+div.card {
+  font-family: "Poppins", sans-serif;
+}
+
 #headerID {
   display: none;
 }
