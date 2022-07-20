@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/edit.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+  </head>
+  <body>
+    <script>
+      $(document).ready(function () {
+        var logo_cont = $(".logo-container");
+        $("h1#headerID").fadeIn(5000);
+        $("h5#infoID").slideDown(1000).animate({
+          paddingLeft: "80px",
+        });
+        $(".logo").animate(
+          {
+            height: "100px",
+            width: "250px",
+          },
+          "slow"
+        );
+        logo_cont.animate(
+          {
+            paddingTop: "80px",
+          },
+          5000
+        );
+      });
+    </script>
+
+    <div class="bg-container">
+      <div class="row">
+        <div class="col-md-9 pt-5 px-4">
+          <h1 style="color: white" id="headerID" class="pb-5">
+            <b style="color: orange">Cassava</b>
+            Breeding Unit <b> Historical Reports</b>
+          </h1>
+          <h5 style="color: white; font-size: 22px" id="infoID">
+            This website repository is used to keep record of all reports from
+            1971 to 2018,
+          </h5>
+          <h5 style="color: white; font-size: 22px" id="infoID">
+            you can find records of all the data and information embedded in
+            these years
+          </h5>
+          <h5 style="color: white; font-size: 22px" id="infoID">
+            each data can be downloaded and used for
+            <b style="color: green">analysis</b> or personal purposes.
+          </h5>
+        </div>
+        <div class="col-md-3 logo-container">
+          <img src="images/logo.png" class="logo" alt="" srcset="" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 image_container">
+          <img
+            src="images/cass2.jpg"
+            class="image_style"
+            alt="cass 2"
+            srcset=""
+          />
+        </div>
+        <div class="col-md-4 image_container">
+          <img
+            src="images/cass3.jpg"
+            class="image_style"
+            alt="cass 2"
+            srcset=""
+          />
+        </div>
+        <div class="col-md-4 image_container">
+          <img
+            src="images/cass4.jpg"
+            class="image_style"
+            alt="cass 2"
+            srcset=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.bg-container {
+  background-image: url("../bg.jpg");
+  background-size: 100% 100%;
+  background-color: orange;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+#headerID {
+  display: none;
+}
+
+.htext {
+  font-family: "Poppins", sans-serif;
+}
+
+#infoID {
+  display: none;
+}
+
+.image_style {
+  height: 300px;
+  width: 500px;
+}
+
+.logo {
+  height: 50px;
+  width: 150px;
+}
